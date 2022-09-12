@@ -120,3 +120,43 @@ aside{
     border-radius: 55%;
     border: solid #fff 5px;
 }
+
+.contactIco{
+    width: 24px;
+    height: 24px;
+}
+
+.rrss{
+    color: azure;
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+}
+
+.rrss a:hover{
+    color: azure;
+}
+
+.rrss a{
+    color: azure;
+}
+
+aside h2{
+    padding: 10px 0px;
+}
+
+
+.tec{
+    width: 100px;
+
+}
+
+.descip{
+    width: 100px;
+    text-align: center;
+}
+.hobby td{
+    padding: 2px 5px;
+
+}
