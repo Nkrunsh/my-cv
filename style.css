@@ -11,14 +11,7 @@ body{
 
 }
 
-aside{
-    position: fixed;
-    height: 100vh;
-    width: 23vw;
-    padding: 20px;
-    background-color: #4A0DB5;
-    color: azure;
-}
+
 
 main{
     grid-column: 2;
@@ -107,4 +100,23 @@ article{
 
 .exp{
     margin-left: 25px;
+}
+
+aside{
+    position: fixed;
+    height: 100vh;
+    width: 23vw;
+    padding: 20px;
+    background-color: #4A0DB5;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img_profile{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 55%;
+    border: solid #fff 5px;
 }
